@@ -71,6 +71,7 @@ function starting_grid() {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
+  frameRate(12);
   noStroke();
   cols = width / size;
   rows = height / size;
